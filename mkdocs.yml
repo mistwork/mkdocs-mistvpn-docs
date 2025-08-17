@@ -1,7 +1,6 @@
 site_name: Mist VPN
 site_url: https://mistwork.github.io/mkdocs-mistvpn-docs/
-theme:
-  name: material
+
 markdown_extensions:
   - admonition
   - pymdownx.details
@@ -12,6 +11,7 @@ markdown_extensions:
 
 
 theme:
+  name: material
   palette: 
 
     # Palette toggle for light mode
