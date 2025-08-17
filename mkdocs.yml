@@ -9,21 +9,16 @@ markdown_extensions:
   - md_in_html
   - pymdownx.blocks.caption
 
-
 theme:
   name: material
   palette:
-    
-    # Palette toggle for light mode
-    - media: "(prefers-color-scheme: light)"
     - scheme: default
+      media: "(prefers-color-scheme: light)"
       toggle:
         icon: material/toggle-switch
         name: Switch to dark mode
-
-    # Palette toggle for dark mode
-    - media: "(prefers-color-scheme: dark)"
     - scheme: slate
+      media: "(prefers-color-scheme: dark)"
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to light mode
