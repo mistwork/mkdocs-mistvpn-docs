@@ -12,15 +12,19 @@ markdown_extensions:
 
 theme:
   name: material
-  palette: 
+  palette:
+    
 
     # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
     - scheme: default
+      primary: black
       toggle:
         icon: material/toggle-switch
         name: Тёмная тема
 
     # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
     - scheme: slate
       toggle:
         icon: material/toggle-switch-off-outline
