@@ -21,7 +21,7 @@ theme:
       primary: black
       toggle:
         icon: material/toggle-switch
-        name: Тёмная тема
+        name: Switch to dark mode1
 
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
