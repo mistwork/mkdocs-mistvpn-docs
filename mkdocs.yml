@@ -11,7 +11,12 @@ markdown_extensions:
   - md_in_html
 
 nav:
+
   - Как подключиться?: connect.md
+  - VPN клиенты:
+    - IOS:
+      - Streisand: 
+        - Удобный виджет: streisand-viget.md
   - Предупреждение: warning.md
 
 theme:
