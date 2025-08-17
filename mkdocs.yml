@@ -11,7 +11,7 @@ markdown_extensions:
   - md_in_html
 
 nav:
-  - Как подключиться?: howto.md
+  - Как подключиться?: connect.md
   - Предупреждение: warning.md
 
 theme:
