@@ -1,5 +1,5 @@
 site_name: Mist VPN
-site_url: docs.mistserver.online
+site_url: https://docs.mistserver.online
 #site_url: https://mistwork.github.io/mkdocs-mistvpn-docs/
 
 markdown_extensions:
