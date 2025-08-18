@@ -1,6 +1,6 @@
 site_name: Mist VPN
 site_url: https://docs.mistserver.space
-#site_url: https://mistwork.github.io/mkdocs-mistvpn-docs/
+
 
 markdown_extensions:
   - admonition
@@ -12,8 +12,8 @@ markdown_extensions:
   - md_in_html
 
 nav:
-
-  - Как подключиться?: connect.md
+  - Как подключиться?: index.md
+  - Партнерская программа: referral.md
   - VPN клиенты:
     - IOS:
       - Streisand: 
@@ -22,6 +22,7 @@ nav:
 
 theme:
   name: material
+  logo: media/logo.png
   palette:
     - scheme: default
       media: "(prefers-color-scheme: light)"
